@@ -1,0 +1,8 @@
+# AWS S3
+
+## S3?
+- S3 (Simple Storage Service) : is an object storage service offered by AWS
+- Bucket : is like a folder where files (calling objects) are stored
+- Object : is a file such as an HTML, image, PDF etc
+- Static Website Hosting : allows you to serve static content like HTML/CSS from S3
+- Public Access Setting : is required to make your site viewable by anyone
