@@ -1,8 +1,23 @@
 # AWS S3
 
-## S3?
+## AWS S3?
+Amazon Simple Storage Service(S3) is a scalable, secure, and durable object storage service provided by AWS. It allows you to store and retrieve 
+any amount of data from anywhere of the web
+
+## S3 Features
 - S3 (Simple Storage Service) : is an object storage service offered by AWS
+- Object storage : stores data as objects (files + metadata) instead of blocks
+- Highly durable and available
+- Scalable with virtually unlimited storage
+- Supports static website hosting
+- Provides security features like encryption and access control
+
+## S3 Terminology
 - Bucket : is like a folder where files (calling objects) are stored
+          a container for storing objects/files in S3
 - Object : is a file such as an HTML, image, PDF etc
+           a file stored in S3 along with metadata
+- Key : the unique identifier (name) of an object within a bucket
+- Region : the AWS data center location where the bucket resides
 - Static Website Hosting : allows you to serve static content like HTML/CSS from S3
 - Public Access Setting : is required to make your site viewable by anyone
